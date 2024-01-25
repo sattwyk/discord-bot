@@ -1,0 +1,14 @@
+{
+  "name": "Discord Bot Development",
+  "image": "python:3.9",
+  "extensions": [
+    "ms-python.python"
+  ],
+  "forwardPorts": [
+    80
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "pip install -r requirements.txt && python bot.py"
+}
